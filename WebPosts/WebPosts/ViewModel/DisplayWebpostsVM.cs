@@ -178,6 +178,11 @@ namespace WebPosts.ViewModel
             string name = "AlokAswal";
         }
 
+        public void tresdf()
+        {
+            string name = "AlokAswal";
+        }
+
         private void SaveWebPostContent(object value)
         {
             if (WebPostContent == null || WebPostContent == string.Empty)
