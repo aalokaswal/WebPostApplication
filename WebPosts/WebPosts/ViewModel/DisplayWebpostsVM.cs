@@ -173,6 +173,11 @@ namespace WebPosts.ViewModel
 
         }
 
+        public void TestCode()
+        {
+            string name = "AlokAswal";
+        }
+
         private void SaveWebPostContent(object value)
         {
             if (WebPostContent == null || WebPostContent == string.Empty)
