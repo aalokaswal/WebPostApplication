@@ -139,6 +139,8 @@ namespace WebPosts.ViewModel
                 var webPost = (WebPost)value;
                 if (webPost != null)
                 {
+                    selectedWebPost= webPost;
+                    OnPropertyChanged("SelectedWebPost");
                     webPostTitle = webPost.title;
                     OnPropertyChanged("WebPostTitle");
                     var content = await webPostBlObj.GetWebPostContent(webPost.id.ToString());
