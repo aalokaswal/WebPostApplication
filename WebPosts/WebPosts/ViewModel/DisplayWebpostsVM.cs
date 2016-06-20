@@ -182,6 +182,11 @@ namespace WebPosts.ViewModel
         {
             string name = "AlokAswal";
         }
+        
+        public void yughjtresdf()
+        {
+            string name = "AlokAswal";
+        }
 
         private void SaveWebPostContent(object value)
         {
